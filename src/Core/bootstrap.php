@@ -22,7 +22,16 @@
 		$debugbar 		   = new StandardDebugBar();
 		$debugbar_Renderer = $debugbar->getJavascriptRenderer();
 		$debugbar["messages"]->addMessage("hello world!");
+
+		$xml = new DOMDocument();
+		$xml->loadHtmlFile( './index.php' );
+
+		$head = $xml->getElementsByTagName( 'head' );
+
 	}
 
 
 	// $autoload_array = array();
+
+	// $debugbar_Renderer->render();
+	// $debugbar_Renderer->renderHead();
