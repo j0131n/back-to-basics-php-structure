@@ -5,9 +5,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title> Simple Structure </title>
-	<!-- <?php echo $debugbar_Renderer->renderHead(); ?> -->
+	<?php echo $debugbar_Renderer->renderHead(); ?>
 </head>
 <body>
-	<!-- <?php echo $debugbar_Renderer->render(); ?> -->
+	<?php echo $debugbar_Renderer->render(); ?>
 </body>
 </html>
