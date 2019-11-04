@@ -1,5 +1,10 @@
 {
-  "require": {
-    "maximebf/debugbar": "1.*"
-  }
+	"require": {
+		"maximebf/debugbar": "1.*"
+	},
+	"autoload": {
+	    "psr-4": {
+	        "Src\\": "src/"
+	    }
+	}
 }
